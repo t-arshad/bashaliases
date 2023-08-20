@@ -1,11 +1,12 @@
 alias installdependencies='sudo apt-get -y update ; sudo apt install -y gnome-text-editor make cmake g++ gcc gfortran gdb python3 python-is-python3 python3-numpy openmpi-bin libopenmpi-dev libqt5x11extras5'
+
 alias installchrome='cd ~;mkdir tmpchrome;cd tmpchrome;sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb;sudo dpkg -i google-chrome-stable_current_amd64.deb;sudo apt install --fix-broken -y;sudo dpkg -i google-chrome-stable_current_amd64.deb;cd ~;rm -rf tmpchrome'
 alias installnautilus='sudo apt install nautilus -y'
 alias param='code ~/SWMF/run_test/PARAM.in'
 alias targz='tar -xf *.tar.gz'
 alias paraview=' ~/Apps/ParaView/bin/paraview &!  ; disown' 
 alias aptfix='sudo dpkg --configure -a'
-alias aliases='nano ~/.bash_aliases'
+alias aliases='git -C ~/bashaliases pull;nano ~/.bash_aliases;git -C ~/bashaliases commit -a -m "Updated .bash_aliases";git -C ~/bashaliases push'
 alias gitconfig='git config --global user.email "talhaa@umich.edu";git config --global user.name "Talha Arshad"'
 alias alldebug='cd ~/SWMF;./Config.pl -debug -O0;make clean;make distclean -C ~/SWMF/util/AMREX/;make clean -C ~/SWMF/PC/FLEKS/'
 alias allnodebug='cd ~/SWMF;./Config.pl -nodebug -O4;make clean;make distclean -C ~/SWMF/util/AMREX/;make clean -C ~/SWMF/PC/FLEKS/'
