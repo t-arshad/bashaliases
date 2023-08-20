@@ -1,0 +1,1 @@
+rm -rf ~/.bash_aliases ;ln -s ~/bashaliases/.bash_aliases ~/.bash_aliases
