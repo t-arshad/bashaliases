@@ -3,6 +3,9 @@ alias installchrome='cd ~;mkdir tmpchrome;cd tmpchrome;sudo wget https://dl.goog
 alias installnautilus='sudo apt install nautilus -y'
 alias param='code ~/SWMF/run_test/PARAM.in'
 alias targz='tar -xf *.tar.gz'
+
+huhuhuhuhuhuhuhu
+
 alias paraview=' ~/Apps/ParaView/bin/paraview &!  ; disown' 
 alias aptfix='sudo dpkg --configure -a'
 alias aliases='git -C ~/bashaliases pull;nano ~/.bash_aliases;git -C ~/bashaliases commit -a -m "Updated .bash_aliases";git -C ~/bashaliases push;. ~/.bash_aliases'
