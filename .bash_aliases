@@ -13,6 +13,7 @@ alias clonesetSWMF='cd ~;git clone git@github.com:SWMFsoftware/SWMF.git;cd SWMF;
 alias quicksetSWMF='cd ~/SWMFbackup;git pull;cd ~/SWMFbackup/PC/FLEKS;git pull;cd ~;rm -rf SWMF;cp -R ~/SWMFbackup ~/SWMF;cd ~/SWMF;make test16 NP=4'
 alias cdSWMF='cd ~/SWMF'
 alias cdFLEKS='cd ~/SWMF/PC/FLEKS'
+alias cdruntest='cd ~/SWMF/run_test'
 alias t16='cdSWMF;make test16; code ~/SWMF/test16.diff'
 alias t168='cdSWMF;make test16 NP=8; code ~/SWMF/test16.diff'
 alias t17='cdSWMF;make test17; code ~/SWMF/test17.diff'
