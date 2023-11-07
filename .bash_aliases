@@ -36,8 +36,6 @@ alias makerun='cd ~/SWMF;make -j;cd run_test;mpiexec -n 4 SWMF.exe|& tee runlog'
 alias makej='cd ~/SWMF;make -j'
 alias run='cd ~/SWMF/run_test;mpiexec -n 4 SWMF.exe|& tee runlog'
 alias BT0='~/SWMF/util/AMREX/Tools/Backtrace/parse_bt.py ~/SWMF/run_test/SWMF.exe ~/SWMF/run_test/Backtrace.0>~/SWMF/run_test/Backtracetmp;rm -rf ~/SWMF/run_test/Backtrace.0;mv ~/SWMF/run_test/Backtracetmp ~/SWMF/run_test/Backtrace.0;code ~/SWMF/run_test/Backtrace.0'
-
-
 alias t68='cdSWMF;make test16 -j;make test18 -j'
 alias t688='cdSWMF;make test18 -j NP=8; code ~/SWMF/test18_gmpc.diff;make test16 -j NP=8; code ~/SWMF/test16_gmpc.diff'
 
