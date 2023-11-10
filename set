@@ -1,1 +1,1 @@
-rm -rf ~/.bash_aliases ;ln -s ~/bashaliases/.bash_aliases ~/.bash_aliases;git remote set-url origin git@github.com:t-arshad/bashaliases.git
+rm -rf ~/.bash_aliases ;ln -s ~/bashaliases/.bash_aliases ~/.bash_aliases;git remote set-url origin git@github.com:t-arshad/bashaliases.git;exec bash
