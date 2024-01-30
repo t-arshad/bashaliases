@@ -47,6 +47,6 @@ alias 2D='cd ~/SWMF;./Config.pl -o=GM:g=8,8,1'
 
 
 alias fixdpkg='sudo dpkg --configure -a'
-alias cleanrun='cd ~/SWMF;rm -rf run; make rundir;'
+alias cleanrun='cp ~/SWMF/run/PARAM.in ~/SWMF;cd ~/SWMF;rm -rf run;cp ~/SWMF/PARAM.in ~/SWMF/run; make rundir;'
 
 # rm -rf ~/.bash_aliases ;ln -s /mnt/g/'My Drive'/FLEKS/.bash_aliases ~/.bash_aliases
