@@ -14,7 +14,7 @@ alias allnodebug='cd ~/SWMF;./Config.pl -nodebug -O4;make clean;make clean -C ~/
 alias SWMFdebug='cd ~/SWMF;./Config.pl -debug -O0;make clean;make clean -C ~/SWMF/PC/FLEKS/'
 alias SWMFnodebug='cd ~/SWMF;./Config.pl -nodebug -O4;make clean;make clean -C ~/SWMF/PC/FLEKS/'
 alias clonesetSWMF='cd ~;git clone git@github.com:SWMFsoftware/SWMF.git;cd SWMF;./Config.pl -install;./Config.pl -debug -O0;make test16 -j NP=8;cp -R ~/SWMF ~/SWMFbackup;code ~/SWMF/test16_gmpc.diff'
-alias quicksetSWMF='cd ~/SWMFbackup;git pull;cd ~/SWMFbackup/PC/FLEKS;git pull;cd ~;rm -rf SWMF;cp -R ~/SWMFbackup ~/SWMF;cd ~/SWMF;./Config.pl -install;./Config.pl -debug -O0;make test16 -j NP=8;code ~/SWMF/test16_gmpc.diff'
+alias quicksetSWMF='cd ~/SWMFbackup;git pull;cd ~/SWMFbackup/PC/FLEKS;git pull;cd ~;rm -rf SWMF;cp -R ~/SWMFbackup ~/SWMF;cd ~/SWMF;touch Makefile.conf;./Config.pl -install;./Config.pl -debug -O0;make test16 -j NP=8;code ~/SWMF/test16_gmpc.diff'
 alias cdSWMF='cd ~/SWMF'
 alias cdFLEKS='cd ~/SWMF/PC/FLEKS'
 alias cdrun='cd ~/SWMF/run'
