@@ -53,4 +53,5 @@ alias fidl='fawlty'
 alias fixdpkg='sudo dpkg --configure -a'
 alias cleanrun='cd ~/SWMF/run;rm -rf WriteMF*;cp ~/SWMF/run/PARAM.in ~/SWMF;cd ~/SWMF;rm -rf run;make rundir;cp ~/SWMF/PARAM.in ~/SWMF/run;'
 alias makerun='cd ~/SWMF;make rundir'
+alias pngtomov='ffmpeg -i %4d.png -movflags faststart -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" movie.mov;'
 # rm -rf ~/.bash_aliases ;ln -s /mnt/g/'My Drive'/FLEKS/.bash_aliases ~/.bash_aliases
