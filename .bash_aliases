@@ -3,6 +3,7 @@ alias installdependencies='sudo apt-get -y update ; sudo apt install -y emacs ma
 alias installchrome='cd ~;mkdir tmpchrome;cd tmpchrome;sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb;sudo dpkg -i google-chrome-stable_current_amd64.deb;sudo apt install --fix-broken -y;sudo dpkg -i google-chrome-stable_current_amd64.deb;cd ~;rm -rf tmpchrome'
 alias installnautilus='sudo apt install nautilus -y'
 alias param='code ~/SWMF/run/PARAM.in'
+alias paramxml='code ~/SWMF/PC/FLEKS/PARAM.XML'
 alias lj='grep -l 'run' ~/SWMF/PC/FLEKS/.vscode/launch.json | xargs sed -i 's/run/run_test/g''
 alias targz='tar -xf *.tar.gz'
 alias paraview=' ~/Apps/ParaView/bin/paraview &!  ; disown' 
