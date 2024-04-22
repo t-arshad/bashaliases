@@ -58,6 +58,6 @@ alias pngtomov='ffmpeg -i %4d.png -movflags faststart -pix_fmt yuv420p -vf "scal
 
 
 alias mount_frontera='mkdir ~/frontera;sshfs tarshad@frontera.tacc.utexas.edu:/home1/09791/tarshad/ ~/frontera -o IdentityFile=~/.ssh/'
-alias mount_diskfarm='mkdir ~/diskfarm;sshfs talhaa@solsticedisk.engin.umich.edu:/data ~/diskfarm -o IdentityFile=~/.ssh/'
+alias mount_diskfarm='mkdir ~/diskfarm;sshfs talhaa@solsticedisk.engin.umich.edu:/data/gtoth/talhaa/ ~/diskfarm -o IdentityFile=~/.ssh/'
 
 # rm -rf ~/.bash_aliases ;ln -s /mnt/g/'My Drive'/FLEKS/.bash_aliases ~/.bash_aliases
