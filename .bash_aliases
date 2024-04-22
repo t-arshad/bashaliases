@@ -1,5 +1,5 @@
 alias rsync='rsync -a --info=progress2'
-alias ls ='ls -a'
+alias ls='ls -a'
 alias installdependencies='sudo apt-get -y update ; sudo apt install -y emacs make cmake g++ gcc gfortran gdb python3 python-is-python3 python3-numpy openmpi-bin libopenmpi-dev libqt5x11extras5'
 alias installchrome='cd ~;mkdir tmpchrome;cd tmpchrome;sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb;sudo dpkg -i google-chrome-stable_current_amd64.deb;sudo apt install --fix-broken -y;sudo dpkg -i google-chrome-stable_current_amd64.deb;cd ~;rm -rf tmpchrome'
 alias installnautilus='sudo apt install nautilus -y'
