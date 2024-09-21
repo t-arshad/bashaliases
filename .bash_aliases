@@ -20,6 +20,7 @@ alias clonesetSWMF='cd ~;git clone git@github.com:SWMFsoftware/SWMF.git;cd SWMF;
 alias quicksetSWMF='cd ~/SWMFbackup;git pull;cd ~/SWMFbackup/PC/FLEKS;git pull;cd ~;rm -rf SWMF;cp -R ~/SWMFbackup ~/SWMF;cd ~/SWMF;touch Makefile.conf;./Config.pl -install;./Config.pl -debug -O0;make test16 -j NP=8;code ~/SWMF/test16_gmpc.diff'
 alias cdSWMF='cd ~/SWMF'
 alias cdFLEKS='cd ~/SWMF/PC/FLEKS'
+alias picpar='code ~/SWMF/PC/FLEKS/src/Pic.cpp;code ~/SWMF/PC/FLEKS/src/Particles.cpp;code ~/SWMF/PC/FLEKS/include/Pic.h;code ~/SWMF/PC/FLEKS/include/Particles.h;'
 alias cdrun='cd ~/SWMF/run'
 alias cdAMREX='cd ~/SWMF/util/AMREX'
 alias domain='code ~/SWMF/PC/FLEKS/src/Domain.cpp'
